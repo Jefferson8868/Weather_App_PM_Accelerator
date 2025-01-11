@@ -18,11 +18,11 @@ db = SQLAlchemy(app)
 
 # Weather API configuration
 WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather"
-API_KEY = "a372b2f0ecb24304d454efca3dcb95f5"
+API_KEY = "YOUR_OPEN_WEATHER_API"
 HISTORICAL_API_URL = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_API_URL = "https://api.openweathermap.org/data/2.5/forecast"
 CURRENT_API_URL = "https://api.openweathermap.org/data/2.5/weather"
-YOUTUBE_API_KEY="AIzaSyBICO2TDNMEIdLE1ghPo5aaGBvAbX2jUFE"
+YOUTUBE_API_KEY="YOUR_API"
 
 
 @app.route('/')

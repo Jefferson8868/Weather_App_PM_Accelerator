@@ -333,14 +333,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
     <script>
-        YOUTUBE_API="AIzaSyBICO2TDNMEIdLE1ghPo5aaGBvAbX2jUFE";
+        YOUTUBE_API="YOUR_API";
         CURRENT_API_URL = "https://api.openweathermap.org/data/2.5/weather";
         HISTORICAL_API_URL = "https://api.openweathermap.org/data/2.5/weather";
         FORECAST_API_URL = "https://api.openweathermap.org/data/2.5/forecast";
-        YOUTUBE_API_KEY="AIzaSyBICO2TDNMEIdLE1ghPo5aaGBvAbX2jUFE";
         WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
         let selectedLocation = null;
-        API_KEY="a372b2f0ecb24304d454efca3dcb95f5";
+        API_KEY="YOUR_OPEN_WEATHER_API";
 
         async function handleLocationSearch(query, context = 'create') {
             const suggestionsId = context === 'update' ? 'updateLocationSuggestions' : 'locationSuggestions';
