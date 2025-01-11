@@ -39,7 +39,7 @@ A comprehensive Flask-based weather application that provides current weather da
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd weather-app
+   cd Weather_App_PM_Accelerator
    ```
 
 2. **Install required packages:**
