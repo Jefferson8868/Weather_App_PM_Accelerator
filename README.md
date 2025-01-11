@@ -97,19 +97,11 @@ A comprehensive Flask-based weather application that provides current weather da
    - View saved records in the bottom panel.
 
 4. **Export Data:**
-   - Use the export dropdown to save data in CSV or PDF format.
+   - Use the export dropdown to save data in CSV, JSON, or PDF format.
 
 ## Database
 
 The application uses SQLite for data storage. The database file (`weather.db`) will be created automatically in the project directory when you first run the application.
-
-## Error Handling
-
-The application includes error handling for:
-- Invalid locations
-- API failures
-- Database errors
-- Export errors
 
 ## License
 
